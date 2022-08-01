@@ -11,7 +11,14 @@ module.exports = {
     fontFamily: {
       sans: ["'Open Sans', sans-serif"],
     },
-    extend: {},
+    extend: {
+      opacity: {
+        35: "0.35",
+      },
+      spacing: {
+        88: "22rem",
+      },
+    },
   },
   plugins: [],
 };
